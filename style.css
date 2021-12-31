@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Mohave:wght@300&family=Roboto&family=Signika:wght@300&family=Sora:wght@300&display=swap');
+
+*{
+
+    margin: 0px;
+    padding: 0px;
+
+}
+
+
+
+/* Root Color section */
+
+
+
+body{
+
+    font-family:'Mohave', sans-serif;
+    line-height: 1.7;
+
+}
+
+.boom{
+
+    margin-top:3rem;
+
+}
+
+.btn-primary{
+
+
+    color: yellow;
+}
+
+/* All Heading Section of this page */
+
+
+
+
+/* ---------------------------------  Container 1      --------------- */
+
+.contain1{
+
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    background-image: url('images/con-1img.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    justify-content: center;
+    position: relative;
+    z-index: 2;
+}
+
+
+.contain1::after {
+
+    background-position: center;
+    background-size: cover;
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color:rgba(10, 10, 10, 0.6);
+    z-index: -1;
+
+}
+
+
+.display-3 {
+
+    color: white;
+    margin-right: 3rem;
+}
+
+
+.text-white.btn {
+
+    border-radius: 27px;    
+}
+
+
+
+/* ---------------   Container 2  --------------------- */
+
+/* list style 1 code */
+
+.lis1{
+
+    border-radius: 25px;
+    padding: 12px;
+    margin: 6px;
+    margin-top: 34px;
+    border: 1px dashed #ef3139;
+    box-shadow: 4px -3px 15px -1px #5363b066;;
+}
+
+
+.con{
+  
+  width:40vh;
+  height:10vh;
+  background:red;
+  margin-top:8rem;
+}
+
+
+/* Animation of this Section  */
+
+ .reveal{
+
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: all 1s ease;
+}
+
+.reveal.active{
+
+    position: relative;
+    transform: translateY(0px);
+    opacity: 1;
+}
+
+
+    /* _____________*****__________ */
+
+
+/* list item 2 code */
+
+#itemimg {
+
+    width: 51px;
+    border-radius: 26px
+
+}
+
+
+.lisitem2 {
+
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 10rem;
+
+
+
+
+}
+
+.con2-imgsection {
+
+    display: flex;
+    height: 741px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+/* --------- ///// ------------- */
+
+
+
+
+/* Button section code */
+
+
+.btn.btn-1 a {
+    display: inline-block;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-decoration: none;
+    transition: 0.2s;
+    padding: 10px;
+    color: white;
+    border: 2px solid white;
+    z-index: 5;
+    position: relative;    
+    }
+
+    a:hover {
+    box-shadow:0 0 10px #2196f3,0 0 40px #2196f3,0 0 80px #219;
+    
+    
+}
+    
+
+/* ---- */
+
+
+/* ----------------------- Container 3   -------------------- */
+
+
+.contain3{
+
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('images/con-3img.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    justify-content: center;
+    position: relative;
+    z-index: 2;
+
+}
+
+
+.contain3::after {
+    content: "";
+    width: 100%;
+    height: 50vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color:rgba(10, 10, 10, 0.6);
+    z-index: -1;
+}
+
+    .col3-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#get:hover{
+
+    background-color: hsl(225,77%,21%);
+    color: white;
+}
+
+.col-lg-12 {
+
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+
+
+/* ------------------------------///////--------------- */
+
+
+
+
+
+/* ------------------------------  Container 4  ---------------------------------*/
+
+.container-4 .contain4-lisItems {
+
+line-height: 1.8;
+text-align: center;
+font-size: 0.9rem;
+list-style: none;
+
+
+}
+
+
+
+
+/* ----------------------   /////    ------------- */
+
